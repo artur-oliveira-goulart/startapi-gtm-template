@@ -1,1 +1,4 @@
 homepage: "https://github.com/artur-oliveira-goulart/startapi-gtm-template"
+versions:
+  - sha: d2a96ff487a224faa13ba37cd92d9099cd59fd60
+    changeNotes: Initial release
