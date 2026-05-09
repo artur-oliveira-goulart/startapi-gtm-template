@@ -1,8 +1,8 @@
-___TERMS_OF_SERVICE___
+﻿___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
-https://developers.google.com/tag-platform/tag-manager/templates/gallery-tos (or such other URL as
+https://developers.google.com/tag-manager/gallery-tos (or such other URL as
 Google may provide), as modified from time to time.
 
 
@@ -17,7 +17,7 @@ ___INFO___
   "version": 1,
   "brand": {
     "displayName": "START API",
-    "thumbnail": ""
+    "id": "brand_custom_template"
   },
   "containerContexts": [
     "WEB"
@@ -46,6 +46,7 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
+const encodeUriComponent = require('encodeUriComponent');
 
 const scriptUrl = 'https://startapibackend.appsstart.com.br/public/start-tag.js?token=' + encodeUriComponent(data.siteToken);
 
@@ -82,3 +83,15 @@ ___WEB_PERMISSIONS___
     "isRequired": true
   }
 ]
+
+
+___TESTS___
+
+scenarios: []
+
+
+___NOTES___
+
+Created on 09/05/2026, 13:19:20
+
+
